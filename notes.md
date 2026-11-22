@@ -9,6 +9,21 @@ Thing I learned is that, all the results were straight as we asked for single li
 ## What I did
 Sent the same prompt ("one login test case in one sentence") to Gemini
 5 times at temperature 0 and 5 times at temperature 1.
+## Results (all from gemini-3.6-flash)
+
+### Temperature 0
+1. Verify that a user is successfully logged in and redirected to their account dashboard upon entering a valid username and password and clicking the "Log In" button.
+2. Verify that a user is successfully logged in and redirected to the dashboard after entering a valid username and password and clicking the "Login" button.
+3. Verify that a user is successfully logged in and redirected to the dashboard upon entering a valid username and password and clicking the login button.
+4. Verify that a user is successfully logged in and redirected to the dashboard upon entering a valid username and password.
+5. Verify that a user is successfully redirected to their dashboard after entering a valid username and password and clicking the "Login" button.
+
+### Temperature 1
+1. Verify that a user is successfully logged in and redirected to the dashboard after entering a valid username and password.
+2. Verify that a user can successfully log in and access their account dashboard after entering a valid username and password.
+3. Verify that a user is successfully authenticated and redirected to the dashboard after entering a valid username and password and clicking the login button.
+4. Verify that a user is successfully redirected to the dashboard after entering a valid username and password and clicking the login button.
+5. Verify that a user is successfully redirected to the dashboard after entering a valid username and password and clicking the login button.
 
 ## What I learned
 - Same prompt, different wording every time, even at temperature 0.
@@ -27,3 +42,4 @@ Sent the same prompt ("one login test case in one sentence") to Gemini
 
 ## Questions for later
 - How do I test "meaning" automatically?
+

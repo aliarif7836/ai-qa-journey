@@ -31,3 +31,4 @@ const checks = [
 for (const c of checks) console.log(`${c.pass ? "✅ YAYYY" : "❌ FAIL"}  ${c.name}`);
 const passed = checks.filter((c) => c.pass).length;
 console.log(`\n${passed}/${checks.length} checks passed`);
+
